@@ -110,4 +110,4 @@ Ensure the following dependencies are installed:
 
 ---
 
-**ChatGPT used for creation of data to build a more balanced dataset**
+*ChatGPT used for creation of data to build a more balanced dataset*
