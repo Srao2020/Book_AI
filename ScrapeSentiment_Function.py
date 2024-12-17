@@ -8,6 +8,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
 
+'''
+Scrape book reviews from Goodreads.
+Analyze their sentiment using a pre-trained Hugging Face DistilBERT model.
+Categorize reviews into "Ending", "Journey", or General themes.
+Save the results into a CSV file.
+'''
 
 # Load Hugging Face sentiment analysis model
 sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
